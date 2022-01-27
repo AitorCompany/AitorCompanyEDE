@@ -1,0 +1,15 @@
+if (numero%2==0)
+    System.out.println("El número es par");
+else
+    System.out.println("El número es impar");
+
+static boolean esPar(int numero){
+    if (numero%2==0) return true; else return false;
+}
+if (esPar(5) )
+    System.out.println("El numero es par");
+else
+    System.out.println("El número es impar");
+if (!esPar(5))
+    System.out.println("El número es impar");
+
